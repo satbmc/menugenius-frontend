@@ -13,7 +13,7 @@ export default function App() {
     setCargando(true);
     try {
       // 👇 REEMPLAZA ESTA URL CON TU URL REAL DE RENDER 👇
-      const response = await fetch('https://menugenius-frontend-pxb6.vercel.app/', {
+      const response = await fetch('https://menugenius-backend.onrender.com/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ peticion })
